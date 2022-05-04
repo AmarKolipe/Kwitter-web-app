@@ -1,0 +1,42 @@
+<html><head>
+	<title>Kwitter Message page</title>
+<script src="https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.NnK9YPjtg-w.O/m=gapi_iframes/rt=j/sv=1/d=1/ed=1/rs=AHpOoo9KePDGVlGjp-rlXwDM1kUO2Eh4gg/cb=gapi.loaded_0?le=scs" async=""></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/8.1/firebase.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&amp;display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script type="text/javascript" charset="UTF-8" src="https://apis.google.com/js/api.js?onload=__iframefcb132656" gapi_processed="true"></script></head>
+<body>
+
+<div class="container">
+	<button id="logout" onclick="logout();" class="glyphicon glyphicon-log-out btn btn-danger">Logout</button>
+	<center>
+		<h1 class="header">	
+			Kwitter	
+			<sup>
+				<img src="m2.png">
+			</sup>
+		</h1>
+		<div id="output" style="text-align: left;margin-bottom: 70px;"></div>
+	</center>
+</div>
+
+<center>
+	<div class="input_div_message_page">
+		<label>Send:</label>
+		<input type="text" id="msg" class="form-control" placeholder="Message">
+		<button onclick="send()" class="btn btn-success">Send</button>
+	</div>
+</center>
+
+<script src="kwitter_page.js"></script>
+
+<iframe ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" tabindex="0" vspace="0" width="100%" id="I0_1649348455890" name="I0_1649348455890" src="https://kwitter-6abca.firebaseapp.com/__/auth/iframe?apiKey=AIzaSyCLGpxZs2pD9mqZCrFwuOI0gYPdRWN5Ksw&amp;appName=%5BDEFAULT%5D&amp;v=3.1.0&amp;usegapi=1&amp;jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.NnK9YPjtg-w.O%2Fd%3D1%2Frs%3DAHpOoo9KePDGVlGjp-rlXwDM1kUO2Eh4gg%2Fm%3D__features__#id=I0_1649348455890&amp;_gfid=I0_1649348455890&amp;parent=https%3A%2F%2Fshravaripatil.github.io&amp;pfname=&amp;rpctoken=83904075" style="position: absolute; top: -100px; width: 1px; height: 1px;"></iframe></body></html>
